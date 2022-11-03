@@ -3,7 +3,7 @@ exports.handler = async (event, context) => {
     const { name } = event.queryStringParameters;
 
     const response = {
-        msg: "Hola API " + name;
+        msg: "Hola API " + name
     }
 
     return {
